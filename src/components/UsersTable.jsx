@@ -55,7 +55,7 @@ const UsersTable = ({ search, onUsersLoaded }) => {
           </thead>
           <tbody>
             {usersToShow.map((user) => (
-              <tr key={user.id} className="border-t">
+              <tr key={user.id} className="border">
                 <td className="py-2 px-4">{user.id}</td>
                 <td className="py-2 px-4">
                   {user.firstName} {user.lastName}

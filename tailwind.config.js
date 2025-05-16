@@ -1,9 +1,9 @@
 // tailwind.config.js
-module.exports = {
-  darkMode: 'class',
-  content: ['./src/**/*.{js,jsx}'],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
+// module.exports = {
+//   darkMode: 'class',
+//   content: ['./src/**/*.{js,jsx}'],
+//   theme: {
+//     extend: {},
+//   },
+//   plugins: [],
+// }

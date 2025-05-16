@@ -12,7 +12,6 @@ const Dashboard = () => {
             .catch(() => setUsers([]));
     }, []);
 
-    // Show only the 5 most recent users
     const recentUsers = users.slice(-5).reverse();
 
     // Prepare data for the user growth chart

@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Users from './components/Users';
 import Reports from './components/Reports';
 import Dashboard from './components/Dashboard';
+import Blogs from './components/Blogs';
 
 const App = () => {
   const [sidebarToggle, setSidebarToggle] = useState(false);
@@ -32,6 +33,7 @@ const App = () => {
                 <Route path='/dashboard' element={<Dashboard />} />
                 <Route path='/users' element={<Users search={search} />} />
                 <Route path='/reports' element={<Reports />} />
+                <Route path='/blogs'element={<Blogs/>}></Route>
               </Routes>
             </div>
           </div>
